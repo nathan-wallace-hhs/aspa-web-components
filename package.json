@@ -2,8 +2,8 @@
   "name": "aspa-web-components",
   "version": "1.0.0",
   "scripts": {
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "build": "npm run build-storybook",
     "dev": "npm run storybook"
   },
