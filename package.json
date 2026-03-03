@@ -1,1 +1,1 @@
-{\n  "name": "aspa-web-components",\n  "version": "1.0.0",\n  "private": true,\n  "dependencies": {\n    "@storybook/web-components": "^6.3.0",\n    "lit": "^2.0.0"\n  }\n}
+{\n  \"name\": \"aspa-web-components\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"storybook\": \"storybook dev -p 6006\",\n    \"build-storybook\": \"storybook build\",\n    \"build\": \"npm run build-storybook\",\n    \"dev\": \"npm run storybook\"\n  }\n}
