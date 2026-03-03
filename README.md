@@ -54,6 +54,14 @@ To add a new story:
    };
    ```
 
+
+### Deploying Storybook to GitHub Pages
+A GitHub Actions workflow is included at `.github/workflows/deploy-storybook.yml` to build and deploy Storybook to GitHub Pages.
+
+- The workflow runs on pushes to `main` and `master`, and can also be triggered manually with **Run workflow**.
+- It installs dependencies with `npm install`, builds Storybook, uploads the static output, and deploys with the official Pages actions.
+- Enable GitHub Pages in the repository settings and set the source to **GitHub Actions**.
+
 ### Conclusion
 You can now create and view stories for your web components. Customize the setup and stories as needed for your project requirements.
 
