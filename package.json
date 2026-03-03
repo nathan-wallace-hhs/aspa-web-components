@@ -1,7 +1,6 @@
 {
   "name": "aspa-web-components",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
@@ -10,12 +9,11 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "prop-types": "^15.8.1"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@storybook/react": "^6.3.2",
     "@storybook/addon-essentials": "^6.3.2",
-    "@storybook/addon-links": "^6.3.2",
-    "@storybook/react": "^6.3.2"
+    "@storybook/addon-links": "^6.3.2"
   }
 }
